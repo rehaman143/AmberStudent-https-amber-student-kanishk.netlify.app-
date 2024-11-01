@@ -1,0 +1,316 @@
+.header {
+  background: rgba(0, 0, 0, 0.2)
+    url("https://static-assets.amberstudent.com/amber-user-website/static/amberstudent/assets/images/app/assets/1440%20-%20web-min.png?q=90");
+  text-align: center;
+  object-fit: contain;
+  background-blend-mode: darken;
+}
+
+.nav {
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav ul {
+  display: flex;
+  gap: 10px;
+}
+
+.nav ul li {
+  list-style-type: none;
+}
+.nav ul li a {
+  text-decoration: none;
+  color: white;
+}
+
+.header {
+  color: white;
+}
+
+/* hero */
+.hero-title {
+  font-size: 3.5rem;
+  padding-top: 5rem;
+}
+
+.hero-subtitle {
+  font-weight: bold;
+  padding: 0.6rem 0;
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+}
+
+.breadcrumbs {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.breadcrumb {
+  background: rgba(0, 0, 0, 0.2);
+  padding: 7px 10px;
+  font-size: 15px;
+  /* opacity: 0.1; */
+  background-blend-mode: darken;
+}
+
+.search {
+  padding: 25px 15px;
+  /* max-width: 1000px; */
+  width: 700px;
+  border-radius: 50px;
+  margin: 2rem 0;
+  border: none;
+  outline: none;
+}
+
+.search-btn {
+  border-radius: 50%;
+  background-color: #ec3a57;
+  color: white;
+  height: 60px;
+  width: 60px;
+  transform: translateX(-70px);
+  border: none;
+  /* outline: none; */
+  transition: 0.2s;
+}
+
+/* featires */
+
+.features {
+  display: flex;
+  gap: 1rem;
+  margin: 1rem 0;
+  /* justify-content: space-around; */
+}
+
+.features-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.feature {
+  max-width: 270px;
+}
+
+.features {
+  /* margin: 2rem 0; */
+}
+
+.features-container {
+  /* margin: 1rem 0; */
+}
+
+.notice {
+  margin: 1rem 0;
+}
+
+.city {
+  display: flex;
+  position: relative;
+  flex-direction: column;
+  align-items: center;
+}
+
+.city-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.city-btn {
+  position: absolute;
+  bottom: 10px;
+  width: 90%;
+  background-color: rgba(0, 0, 0, 0.299);
+  padding: 5px 5px;
+  color: white;
+  font-weight: bold;
+  border: none;
+}
+
+.popular-cities-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, 200px);
+  justify-content: c enter;
+}
+
+.properties-grid {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, 200px);
+  /* justify-content: c enter; */
+}
+
+.property-img {
+  width: 200px;
+  height: 200px;
+  object-fit: cover;
+}
+
+.testimonials-repeater {
+  display: flex;
+  /* flex-wrap: nowrap; */
+  overflow-x: hidden;
+}
+
+.book-info-repeater {
+  display: flex;
+}
+
+/* popular cities */
+.popular-cities-tabs {
+  display: flex;
+  gap: 20px;
+}
+
+.popular-cities-btn {
+  padding: 0.5rem 1rem;
+  border-radius: 30px;
+  margin: 1rem 0;
+}
+
+.popular-cities-subtitle {
+  margin: 1rem 0;
+}
+
+.popular-cities {
+  background-color: #F9FBFA;
+}
+
+.properties-subtitle {
+  margin: 1rem 0;
+}
+
+.properties-tabs {
+  display: flex;
+  gap: 20px;
+}
+
+.properties-btn {
+  padding: 0.5rem 1rem;
+  border-radius: 30px;
+  margin: 1rem 0;
+}
+
+.property {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  /* padding: 0 10px; */
+  width: 250px;
+  /* flex-wrap: wrap; */
+  /* border-radius: 20px; */
+  border: 1px solid gainsboro;
+  border-radius: 0 0 10px 10px;
+}
+
+.properties-grid {
+  display: flex;
+  /* flex-wrap: wrap; */
+
+}
+
+.property-img {
+  width: 100%;
+  /* display: inline-block; */
+  border-radius: 10px 10px 0 0;
+}
+
+/* testimonials */
+
+.testimonials {
+   background-color: #EAF9F3;
+   padding: 2rem 0;
+}
+
+.testimonials-subtitle {
+  margin: 1rem 0;
+}
+
+.testimonials-repeater {
+  display: flex;
+  gap: 10px;
+  /* flex-wrap: wrap; */
+}
+
+.testimonials-card {
+  padding: 1rem;
+  background-color: white;
+  border-radius: 10px;
+  width: 300px;
+  display: flex;
+  flex-direction: column;
+  gap: 2rem
+}
+
+.profile-card {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+}
+
+.profile-card img {
+  width: 35px;
+}
+
+.book-accomodation {
+  padding: 1rem 0;
+}
+
+.book-accomodation-container > h2 {
+  margin: 1rem 0;
+}
+
+.book-info-repeater {
+  display: flex;
+  gap: 10px;
+}
+
+
+.referral p {
+  margin: 1rem 0;
+}
+
+.cards {
+  display: flex;
+  gap: 10px;
+}
+
+.three-steps-repeater {
+  display: flex;
+  gap: 10px;
+  border: 1px solid gray;
+  justify-content: space-between;
+ }
+
+ .three-steps-container p {
+  margin: 1rem 0;
+ }
+
+ .steps-repeater {
+  display: flex;
+  gap: 10px;
+ }
+
+ .steps-repeater p {
+  margin: 1rem 0;
+ }
+
+ .city-link {
+  margin: 1rem 0;
+  color: var(--pink);
+  text-decoration: none;
+ }
+
+ .cities-list {
+  display: grid;
+  /* gap: 20px; */
+  grid-template-columns: repeat(5, 1fr);
+  justify-content: space-between;
+ }
