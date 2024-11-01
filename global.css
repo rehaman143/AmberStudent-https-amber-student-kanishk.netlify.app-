@@ -1,0 +1,29 @@
+:root {
+  --pink: #ED3A56;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  border: 1px solid plum;
+}
+
+.container {
+  padding: 1rem 5rem;
+  /* margin: 1rem 3rem; */
+
+}
+
+.nav-container {
+  padding: 1rem 2.5rem;
+}
+
+
+.cards {
+  display: flex;
+}
